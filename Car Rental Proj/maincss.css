@@ -1,0 +1,212 @@
+.navbar{
+    background-color: white;
+    overflow: hidden;
+    border-radius: 15px;
+
+}
+.navbar h1{
+    float: left; 
+    color:black(255, 255, 255);
+    border-color: black;
+    text-align: left;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Verdana;
+    
+
+}
+
+
+
+
+.navbar a{
+    float: left; 
+    color:slategrey;
+    border-color:black;
+    text-align: left;
+    padding: 16px 16px;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    margin-top: 15px;
+}
+.navbar a:hover{
+    background-color:thistle;
+    color: black;
+    border-radius: 25px;
+
+}
+.navbar a:active{
+    background-color: goldenrod;
+    color: aliceblue;
+}
+.navbar input[type=text]
+ {
+    float: right;
+    padding: 7px;
+    border: none;
+    margin-top: 19px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    margin-bottom:3;
+    border-radius: 15px;
+
+  }
+  .navbar input[type=text]:active
+ {
+    float: right;
+    padding: 7px;
+    border: none;
+    margin-top: 19px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: 1px solid green;
+    margin-bottom:3;
+    border-radius: 15px;
+
+  }
+
+body{
+    background-image:url(purpl2.jpg);
+    background-size:cover;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    }
+  
+    .icon {
+        background-image: url(arrow.png);
+        background-size: cover;
+        padding: 10px;
+        background:blueviolet;
+        color: white;
+        min-width: 50px;
+        text-align: center;
+    }
+    .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    }
+    
+    .input-field:focus {
+    border: 2px solid darkcyan;
+    }
+    
+    .btn {
+    background-color:blueviolet;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+    
+    .btn:hover {
+        opacity: 1;
+}
+.rtrtr{
+    text-align: center;
+    margin-left: 25%;
+    margin-right:25%;
+}
+.rtrtr h2{
+    font-size:25px;
+}
+ 
+.gth{
+    padding: 150px 225px;
+    border-radius: 25px;
+    background-image: url(br3.jpg);
+    border-color:black;
+    margin-top: 10px;
+    margin-left:35%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+.button_img{
+    color: azure;
+    text-align: start;
+    text-align: left;
+    font-size: 15px;
+}
+.head{
+    color:white;
+    font-family:'Trebuchet MS';
+    font-size: 90px;
+    text-align: center;
+    padding-top: 160px;
+    display: inline-block;
+    text-shadow: 3px 3px 5px black,-3px -3px 5px black;
+
+}
+.centre{
+    text-align: center;
+}
+.bal{
+    color:darkcyan;
+    font-family:'Trebuchet MS';
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 3px 3px 5px black,-3px -3px 5px black;
+    display: inline-block;
+}
+.heado{color:white;
+    font-family:'Trebuchet MS';
+    font-size: 60px;
+    text-align: center;
+    padding-top: 70px;
+    display: inline-block;
+    text-shadow: 3px 3px 5px black,-3px -3px 5px black;
+
+}
+.balo{
+    color:darkcyan;
+    font-family:'Trebuchet MS';
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 5px black,-3px -3px 5px black;
+    display: inline-block;
+}
+.hr2{
+    padding: 150px;
+    color:black;
+
+}
+.grid-container {
+    display: grid;
+    height: 600px;
+    align-content: center;
+    grid-template-columns: auto auto ;
+    gap: 70px;
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+  
+  .jj1{
+    color:black;
+    border-style:groove;
+    border-color:black;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    text-align:left;
+    padding: 90px 30px;
+    font-size:30px 0;
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    border-radius: 5px;
+  }
+  fa fa-user icon{
+    background-image: url(arrow.png);
+    background-position: center;
+    background-size: cover;
+      }
